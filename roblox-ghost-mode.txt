@@ -5,3 +5,6 @@
 ! Last modified: 2025-04-20
 
 ||presence.roblox.com^
+||friends.roblox.com^
+||chat.roblox.com^
+||notifications.roblox.com^
