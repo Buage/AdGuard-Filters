@@ -1,0 +1,7 @@
+! Title: Roblox Ghost Mode
+! Description: Blocks presence.roblox.com to hide online status (ghost mode).
+! Version: 1.0.0
+! Homepage: https://your-custom-link.example (optional)
+! Last modified: 2025-04-20
+
+||presence.roblox.com^
