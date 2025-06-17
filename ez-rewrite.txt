@@ -1,0 +1,20 @@
+! Title: WebRTC & STUN Tracker Blocker
+! Description: Blocks common WebRTC/STUN domains by redirecting them to bogus IPs to prevent IP leaks and tracking.
+! Version: 1.0.0
+! Last modified: 2025-06-17
+
+||stun.l.google.com^$dnsrewrite=0.0.0.0
+||stun1.l.google.com^$dnsrewrite=0.0.0.1
+||stun2.l.google.com^$dnsrewrite=0.0.0.2
+||stun3.l.google.com^$dnsrewrite=0.0.0.3
+||stun4.l.google.com^$dnsrewrite=0.0.0.4
+||stun.voipbuster.com^$dnsrewrite=127.0.0.1
+||stun.stunprotocol.org^$dnsrewrite=10.10.10.10
+||stun.counterpath.com^$dnsrewrite=192.168.99.99
+||stun.voiparound.com^$dnsrewrite=172.16.254.254
+||stun.ideasip.com^$dnsrewrite=0.0.0.5
+||stun.sipgate.net^$dnsrewrite=127.0.0.2
+||stun.ekiga.net^$dnsrewrite=10.0.0.123
+||stun.iptel.org^$dnsrewrite=192.168.1.254
+||stun.rixtelecom.se^$dnsrewrite=172.20.10.5
+||stun.schlund.de^$dnsrewrite=0.0.0.6
