@@ -1,0 +1,20 @@
+! Title: ZBLAH DNS Noise Bomb
+! Description: Redirects commonly spoofed or fake ad/tracker domains to bogus IPs to confuse trackers & generate noise.
+! Version: 1.0.0
+! Last modified: 2025-06-17
+
+||ads1.tracker-fake.com^$dnsrewrite=10.10.10.10
+||analytics.zzq-weird.net^$dnsrewrite=0.0.0.66
+||telemetry.shadowdata.org^$dnsrewrite=127.127.127.127
+||metrics.nonsense-stats.net^$dnsrewrite=192.0.2.123
+||beacons.ghosttrack.io^$dnsrewrite=203.0.113.9
+||adserver.hauntedpixel.net^$dnsrewrite=172.20.69.69
+||tracking.void-fusion.com^$dnsrewrite=198.51.100.42
+||spy.pixelz-system.biz^$dnsrewrite=224.0.0.250
+||sni.unknownrecon.link^$dnsrewrite=100.64.0.1
+||cdn.zzzzz-noise.wtf^$dnsrewrite=169.254.255.254
+||clicks.trashdata.lol^$dnsrewrite=0.0.0.13
+||ghost.visitor-counter.win^$dnsrewrite=10.0.0.98
+||cdn.nope-nope.biz^$dnsrewrite=1.1.1.1
+||api.lostpixels.dev^$dnsrewrite=8.8.8.8
+||fingerprint.trollsquad.cloud^$dnsrewrite=6.6.6.6
