@@ -4,11 +4,13 @@
 ! Last modified: 2025-06-17
 
 ||ads1.tracker-fake.com^$dnsrewrite=10.10.10.10
+||beacon-noise.randomzzz.net^$dnsrewrite=10.10.10.11
+||telemetry-ghost.shadowdata.io^$dnsrewrite=10.10.10.12
+||adserver.hauntedpixel.net^$dnsrewrite=172.20.69.69
 ||analytics.zzq-weird.net^$dnsrewrite=0.0.0.66
 ||telemetry.shadowdata.org^$dnsrewrite=127.127.127.127
 ||metrics.nonsense-stats.net^$dnsrewrite=192.0.2.123
 ||beacons.ghosttrack.io^$dnsrewrite=203.0.113.9
-||adserver.hauntedpixel.net^$dnsrewrite=172.20.69.69
 ||tracking.void-fusion.com^$dnsrewrite=198.51.100.42
 ||spy.pixelz-system.biz^$dnsrewrite=224.0.0.250
 ||sni.unknownrecon.link^$dnsrewrite=100.64.0.1
